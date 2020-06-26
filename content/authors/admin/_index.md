@@ -31,9 +31,9 @@ education:
   courses:
   - course: PhD
     institution: Digital Research Institute, NUI Galway, Ireland
-    year: 2013
-  - course: Dipl. Engineer Business Economics
-    institution: University of Karlsruhe, german
+    year: 2012
+  - course: Diploma in Business Engineering
+    institution: School of Economics and Business Engineering, University of Karlsruhe, Germany
     year: 2008
   
 # Social/Academic Networking
@@ -55,9 +55,9 @@ social:
   link: https://github.com/jumbrich/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+   icon_pack: ai
+   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -69,4 +69,5 @@ user_groups:
 - Visitors
 ---
 
-Jürgen is knowledge scientist at Onlim and responsible for the development of data infrastructure and modelling of data and services. Jürgen graduated from the National University of Ireland, Galway (NUI Galway) in 2013 and worked for the University of Vienna before joining Onlim.
+Jürgen is knowledge scientist at Onlim and responsible for the development of data infrastructure and modelling of data and services. 
+Jürgen graduated from the National University of Ireland, Galway (NUI Galway) in 2013 and worked for the University of Vienna before joining Onlim.
