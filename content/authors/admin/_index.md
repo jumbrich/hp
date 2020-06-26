@@ -22,10 +22,11 @@ bio: My research interests focused on exploiting the potential of Semantic Web t
 
 interests:
 - Artificial Intelligence
-- conversational interfaces/agents
-- Semantic Web
+- Conversational interfaces/agents
+- Semantic Web & (Linked) Open Data
 - Information Retrieval
 - Query processing
+- Data Quality
 
 education:
   courses:
