@@ -26,9 +26,9 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Responsibilities include:
-  * Analysing
-  * Modelling
-  * Deploying
+  * Data integration
+  * Knowledge modelling
+  * Consulting
   """
 
 [[experience]]
@@ -47,7 +47,7 @@ date_format = "Jan 2006"
   location = "Galway, Ireland"
   date_start = "2013-01-01"
   date_end = "2013-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """Exploiting the potential of Semantic Web technologies in Fujitsu"""
 
 [[experience]]
   title = "PhD Student"
