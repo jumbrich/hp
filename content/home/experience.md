@@ -54,7 +54,7 @@ date_format = "Jan 2006"
   company = "DERI at National University of Ireland, Galway"
   company_url = "https://www.deri.ie/"
   location = "Galway, Ireland"
-  date_start = "2008"
+  date_start = "2008-08-01"
   date_end = "2012-12-31"
   description = """Thesis: A Hybrid Framework for Querying Linked Data Dynamically"""
 +++
