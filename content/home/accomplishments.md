@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   title = "Best Paper at OBD 2015"
   url = ""
   certificate_url = ""
-  date_start = "2015"
+  date_start = "2015-08-26"
   date_end = ""
   description = ""
   
