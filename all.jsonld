@@ -39031,6 +39031,21 @@
         "@value": "add comment",
         "@language": "en"
       }
+    },
+    {
+      "@id": "onlim:TraumaSurgery",
+      "@type": [
+        "schema:MedicalSpecialty",
+        "onlim:MedicalQualification"
+      ],
+      "rdfs:label": {
+        "@value": "TraumaSurgery",
+        "@language": "en"
+      },
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     }
   ]
 }
