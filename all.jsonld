@@ -38485,7 +38485,10 @@
     },
     {
       "@id": "onlim:Psychotherapy",
-      "@type": "schema:MedicalSpecialty",
+      "@type": [
+        "schema:MedicalSpecialty",
+        "onlim:MedicalQualification"
+      ],
       "rdfs:label": {
         "@value": "Psychotherapy",
         "@language": "en"
@@ -38881,7 +38884,10 @@
     },
     {
       "@id": "onlim:TraumaSurgery",
-      "@type": "onlim:MedicalQualification",
+      "@type": [
+        "schema:MedicalSpecialty",
+        "onlim:MedicalQualification"
+      ],
       "rdfs:label": {
         "@value": "TraumaSurgery",
         "@language": "en"
@@ -39025,21 +39031,6 @@
       ],
       "rdfs:label": {
         "@value": "Psychoanalysis",
-        "@language": "en"
-      },
-      "rdfs:comment": {
-        "@value": "add comment",
-        "@language": "en"
-      }
-    },
-    {
-      "@id": "onlim:TraumaSurgery",
-      "@type": [
-        "schema:MedicalSpecialty",
-        "onlim:MedicalQualification"
-      ],
-      "rdfs:label": {
-        "@value": "TraumaSurgery",
         "@language": "en"
       },
       "rdfs:comment": {
