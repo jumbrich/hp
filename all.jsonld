@@ -34902,15 +34902,20 @@
       "@type": "rdf:Property"
     },
     {
-      "@id": "onlim:videos",
+      "@id": "schema:video",
       "schema:domainIncludes": {
         "@id": "schema:Thing"
       },
-      "schema:rangeIncludes": {
-        "@id": "onlim:VideoAttachment"
-      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:VideoObject"
+        },
+        {
+          "@id": "onlim:VideoAttachment"
+        }
+      ],
       "rdfs:label": {
-        "@value": "videos",
+        "@value": "video",
         "@language": "en"
       },
       "rdfs:comment": [
@@ -38039,6 +38044,30 @@
           "@language": "en"
         }
       ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:previewImage",
+      "schema:domainIncludes": {
+        "@id": "schema:VideoObject"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:URL"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Vorschaubild",
+          "@language": "de"
+        },
+        {
+          "@value": "preview Image",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "noch nicht vorhanden",
+        "@language": "de"
+      },
       "@type": "rdf:Property"
     },
     {
