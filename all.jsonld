@@ -34903,23 +34903,9 @@
     },
     {
       "@id": "onlim:videos",
-      "schema:domainIncludes": [
-        {
-          "@id": "onlim:Marketing"
-        },
-        {
-          "@id": "schema:Event"
-        },
-        {
-          "@id": "schema:Offer"
-        },
-        {
-          "@id": "schema:LodgingBusiness"
-        },
-        {
-          "@id": "schema:LocalBusiness"
-        }
-      ],
+      "schema:domainIncludes": {
+        "@id": "schema:Thing"
+      },
       "schema:rangeIncludes": {
         "@id": "onlim:VideoAttachment"
       },
