@@ -36438,20 +36438,9 @@
     },
     {
       "@id": "onlim:bonusAmenityFeature",
-      "schema:domainIncludes": [
-        {
-          "@id": "schema:DaySpa"
-        },
-        {
-          "@id": "onlim:ThermalBath"
-        },
-        {
-          "@id": "schema:LodgingBusiness"
-        },
-        {
-          "@id": "schema:Restaurant"
-        }
-      ],
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
       "schema:rangeIncludes": {
         "@id": "schema:LocationFeatureSpecification"
       },
