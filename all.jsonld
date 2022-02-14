@@ -38213,7 +38213,7 @@
         }
       ],
       "rdfs:comment": {
-        "@value": "adult group",
+        "@value": "Adult age group",
         "@language": "en"
       }
     },
@@ -38235,7 +38235,7 @@
         }
       ],
       "rdfs:comment": {
-        "@value": "Senior adult group",
+        "@value": "Senior adult age group",
         "@language": "en"
       }
     },
@@ -38255,7 +38255,11 @@
           "@value": "Bambino",
           "@language": "it"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "Children age group",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:Junior",
@@ -38273,7 +38277,11 @@
           "@value": "Junior",
           "@language": "it"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "Teenager age group",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:Angiology",
