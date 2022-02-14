@@ -12772,6 +12772,33 @@
       "@type": "rdfs:Class"
     },
     {
+      "@id": "onlim:CustomerAgeType",
+      "rdfs:subClassOf": {
+        "@id": "schema:BusinessEntityType"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Altersklasse",
+          "@language": "de"
+        },
+        {
+          "@value": "CustomerAgeGroup",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
       "@id": "onlim:SoilProperty",
       "rdfs:subClassOf": {
         "@id": "onlim:Ground"
@@ -38121,47 +38148,132 @@
     {
       "@id": "onlim:SelfPayer",
       "@type": "onlim:PatientType",
-      "rdfs:label": {
-        "@value": "self payer",
-        "@language": "en"
-      },
+      "rdfs:label": [
+        {
+          "@value": "self payer",
+          "@language": "en"
+        },
+        {
+          "@value": "Selbstzahler",
+          "@language": "de"
+        }
+      ],
       "rdfs:comment": {
         "@value": "Patient is a self payer",
         "@language": "en"
-      },
-      "__EMPTY": {
-        "@id": "onlim:Selbstzahler"
       }
     },
     {
       "@id": "onlim:PrivateHealthInsurance",
       "@type": "onlim:PatientType",
-      "rdfs:label": {
-        "@value": "private health insurance",
-        "@language": "en"
-      },
+      "rdfs:label": [
+        {
+          "@value": "private health insurance",
+          "@language": "en"
+        },
+        {
+          "@value": "Privatversichert",
+          "@language": "de"
+        }
+      ],
       "rdfs:comment": {
         "@value": "Patient has a private health insurace",
         "@language": "en"
-      },
-      "__EMPTY": {
-        "@id": "onlim:Privatversichert"
       }
     },
     {
       "@id": "onlim:NonPrivateHealthInsurance",
       "@type": "onlim:PatientType",
-      "rdfs:label": {
-        "@value": "non private health insurance",
-        "@language": "en"
-      },
+      "rdfs:label": [
+        {
+          "@value": "non private health insurance",
+          "@language": "en"
+        },
+        {
+          "@value": "Gesetzlich versichert",
+          "@language": "de"
+        }
+      ],
       "rdfs:comment": {
         "@value": "Patient with a non private health insurance",
         "@language": "en"
-      },
-      "__EMPTY": {
-        "@id": "onlim:Gesetzlich versichert"
       }
+    },
+    {
+      "@id": "onlim:Adult",
+      "@type": "onlim:CustomerAgeType",
+      "rdfs:label": [
+        {
+          "@value": "Adult",
+          "@language": "en"
+        },
+        {
+          "@value": "Erwachsener",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "adult group",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:Senior",
+      "@type": "onlim:CustomerAgeType",
+      "rdfs:label": [
+        {
+          "@value": "Senior",
+          "@language": "en"
+        },
+        {
+          "@value": "Senior",
+          "@language": "de"
+        },
+        {
+          "@value": "Anziano",
+          "@language": "it"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "Senior adult group",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:Baby",
+      "@type": "onlim:CustomerAgeType",
+      "rdfs:label": [
+        {
+          "@value": "Baby",
+          "@language": "en"
+        },
+        {
+          "@value": "Kinder",
+          "@language": "de"
+        },
+        {
+          "@value": "Bambino",
+          "@language": "it"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:Junior",
+      "@type": "onlim:CustomerAgeType",
+      "rdfs:label": [
+        {
+          "@value": "Teenager",
+          "@language": "en"
+        },
+        {
+          "@value": "Jugendlicher",
+          "@language": "de"
+        },
+        {
+          "@value": "Junior",
+          "@language": "it"
+        }
+      ]
     },
     {
       "@id": "onlim:Angiology",
