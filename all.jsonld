@@ -38210,12 +38210,26 @@
         {
           "@value": "Erwachsener",
           "@language": "de"
+        },
+        {
+          "@value": "Adulto",
+          "@language": "it"
         }
       ],
-      "rdfs:comment": {
-        "@value": "Adult age group",
-        "@language": "en"
-      }
+      "rdfs:comment": [
+        {
+          "@value": "Adult age group",
+          "@language": "en"
+        },
+        {
+          "@value": "Altersklasse Erwachsene",
+          "@language": "de"
+        },
+        {
+          "@value": "no comment",
+          "@language": "it"
+        }
+      ]
     },
     {
       "@id": "onlim:Senior",
@@ -38234,10 +38248,20 @@
           "@language": "it"
         }
       ],
-      "rdfs:comment": {
-        "@value": "Senior adult age group",
-        "@language": "en"
-      }
+      "rdfs:comment": [
+        {
+          "@value": "Senior adult age group",
+          "@language": "en"
+        },
+        {
+          "@value": "Altersklasse Senioren",
+          "@language": "de"
+        },
+        {
+          "@value": "no comment",
+          "@language": "it"
+        }
+      ]
     },
     {
       "@id": "onlim:Baby",
@@ -38256,10 +38280,20 @@
           "@language": "it"
         }
       ],
-      "rdfs:comment": {
-        "@value": "Children age group",
-        "@language": "en"
-      }
+      "rdfs:comment": [
+        {
+          "@value": "Children age group",
+          "@language": "en"
+        },
+        {
+          "@value": "Altersklasse Kinder",
+          "@language": "de"
+        },
+        {
+          "@value": "no comment",
+          "@language": "it"
+        }
+      ]
     },
     {
       "@id": "onlim:Junior",
@@ -38278,10 +38312,20 @@
           "@language": "it"
         }
       ],
-      "rdfs:comment": {
-        "@value": "Teenager age group",
-        "@language": "en"
-      }
+      "rdfs:comment": [
+        {
+          "@value": "Teenager age group",
+          "@language": "en"
+        },
+        {
+          "@value": "Altersklasse Jugendliche",
+          "@language": "de"
+        },
+        {
+          "@value": "no comment",
+          "@language": "it"
+        }
+      ]
     },
     {
       "@id": "onlim:Angiology",
