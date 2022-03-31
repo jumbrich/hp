@@ -2820,9 +2820,9 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:Therapy",
+      "@id": "onlim:TherapyType",
       "rdfs:subClassOf": {
-        "@id": "onlim:HealthFeatureSpecification"
+        "@id": "schema:Enumeration"
       },
       "rdfs:label": [
         {
@@ -7853,7 +7853,7 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:Pharmay",
+      "@id": "onlim:Pharmacy",
       "rdfs:subClassOf": {
         "@id": "schema:HairSalon"
       },
@@ -8797,9 +8797,9 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:Certificate",
+      "@id": "onlim:CertificateType",
       "rdfs:subClassOf": {
-        "@id": "onlim:HealthFeatureSpecification"
+        "@id": "schema:Enumeration"
       },
       "rdfs:label": [
         {
@@ -22381,9 +22381,9 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:Indication",
+      "@id": "onlim:IndicationType",
       "rdfs:subClassOf": {
-        "@id": "onlim:HealthFeatureSpecification"
+        "@id": "schema:Enumeration"
       },
       "rdfs:label": {
         "@value": "Indication",
@@ -22537,9 +22537,9 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:Prevention",
+      "@id": "onlim:PreventionType",
       "rdfs:subClassOf": {
-        "@id": "onlim:HealthFeatureSpecification"
+        "@id": "schema:Enumeration"
       },
       "rdfs:label": [
         {
@@ -32171,6 +32171,33 @@
       "@type": "rdfs:Class"
     },
     {
+      "@id": "onlim:Connector",
+      "rdfs:subClassOf": {
+        "@id": "schema:Thing"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Connector",
+          "@language": "de"
+        },
+        {
+          "@value": "Connector",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "A Connector of an ECarChargingStation",
+          "@language": "de"
+        },
+        {
+          "@value": "A Connector of an ECarChargingStation",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
       "@id": "schema:ratingValue",
       "schema:domainIncludes": {
         "@id": "schema:Rating"
@@ -35451,7 +35478,7 @@
       "@type": "rdf:Property"
     },
     {
-      "@id": "onlim:indication",
+      "@id": "onlim:IndicationType",
       "schema:domainIncludes": [
         {
           "@id": "schema:MedicalProcedure"
@@ -36582,14 +36609,22 @@
         },
         {
           "@id": "onlim:HealthResort"
-        },
-        {
-          "@id": "schema:Offer"
         }
       ],
-      "schema:rangeIncludes": {
-        "@id": "onlim:HealthFeatureSpecification"
-      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "onlim:IndicationType"
+        },
+        {
+          "@id": "onlim:PreventionType"
+        },
+        {
+          "@id": "onlim:CertificateType"
+        },
+        {
+          "@id": "onlim:TherapyType"
+        }
+      ],
       "rdfs:label": [
         {
           "@value": "gesundheits themen",
@@ -36751,7 +36786,7 @@
           "@id": "schema:Offer"
         },
         {
-          "@id": "onlim:Certificate"
+          "@id": "onlim:CertificateType"
         }
       ],
       "schema:rangeIncludes": {
@@ -38098,6 +38133,186 @@
       "@type": "rdf:Property"
     },
     {
+      "@id": "onlim:hasConnector",
+      "schema:domainIncludes": {
+        "@id": "onlim:ECarChargingStation"
+      },
+      "schema:rangeIncludes": {
+        "@id": "onlim:Connector"
+      },
+      "rdfs:label": [
+        {
+          "@value": "hasConnector",
+          "@language": "de"
+        },
+        {
+          "@value": "hasConnector",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "hasConnector property is used to link a Connector to a ECarChargingStation",
+          "@language": "de"
+        },
+        {
+          "@value": "hasConnector property is used to link a Connector to a ECarChargingStation",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:hasSpeed",
+      "schema:domainIncludes": {
+        "@id": "onlim:Connector"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Integer"
+        },
+        {
+          "@id": "schema:Number"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@value": "hasSpeed",
+          "@language": "de"
+        },
+        {
+          "@value": "hasSpeed",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "hasSpeed property is to specify the speed value of a Connector",
+          "@language": "de"
+        },
+        {
+          "@value": "hasSpeed property is to specify the speed value of a Connector",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:hasPowerType",
+      "schema:domainIncludes": {
+        "@id": "onlim:Connector"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "hasPowerType",
+          "@language": "de"
+        },
+        {
+          "@value": "hasPowerType",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "hasPowerType property is to specify the powerType of a Connector",
+          "@language": "de"
+        },
+        {
+          "@value": "hasPowerType property is to specify the powerType of a Connector",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:hasUtilization",
+      "schema:domainIncludes": {
+        "@id": "onlim:ECarChargingStation"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Integer"
+        },
+        {
+          "@id": "schema:Number"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@value": "hasUtilization",
+          "@language": "de"
+        },
+        {
+          "@value": "hasUtilization",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "hasUtilization property is to specify the utilization of a ECarChargingStation",
+          "@language": "de"
+        },
+        {
+          "@value": "hasUtilization property is to specify the utilization of a ECarChargingStation",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:hasApiIdentifier",
+      "schema:domainIncludes": {
+        "@id": "onlim:Connector"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "hasApiIdentifier",
+          "@language": "de"
+        },
+        {
+          "@value": "hasApiIdentifier",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "hasApiIdentifier is to specify the apiIdentifier of a Connector",
+          "@language": "de"
+        },
+        {
+          "@value": "hasApiIdentifier is to specify the apiIdentifier of a Connector",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:nearBy",
+      "schema:domainIncludes": {
+        "@id": "schema:Place"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Place"
+      },
+      "rdfs:label": [
+        {
+          "@value": "nearBy",
+          "@language": "de"
+        },
+        {
+          "@value": "nearBy",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
       "@id": "onlim:Published",
       "@type": "onlim:PublishingStatusType",
       "rdfs:label": {
@@ -39203,6 +39418,544 @@
       },
       "rdfs:comment": {
         "@value": "add comment",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:ExhaustionIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "exhaustion",
+          "@language": "en"
+        },
+        {
+          "@value": "Erschöpfungszustände, Stressfolgen",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:CardiovascularIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "cardiovascular",
+          "@language": "en"
+        },
+        {
+          "@value": "Herz-Kreislauf",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:BackpainIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "backpain",
+          "@language": "en"
+        },
+        {
+          "@value": "Rückenschmerzen",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:MudTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "mud",
+          "@language": "en"
+        },
+        {
+          "@value": "Moorkur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:ThermalWaterTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "thermal_water",
+          "@language": "en"
+        },
+        {
+          "@value": "Thermalwasser-Kur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:MovementPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "movement",
+          "@language": "en"
+        },
+        {
+          "@value": "Bewegung",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:RelaxationPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "relaxation",
+          "@language": "en"
+        },
+        {
+          "@value": "Entspannung",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:NutritionPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "nutrition",
+          "@language": "en"
+        },
+        {
+          "@value": "Ernährung",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:BhvCertificate",
+      "@type": "onlim:CertificateType",
+      "rdfs:label": [
+        {
+          "@value": "bhv",
+          "@language": "en"
+        },
+        {
+          "@value": "BHV zertifiziert",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:WomensHealthIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "womens_health",
+          "@language": "en"
+        },
+        {
+          "@value": "Frauengesundheit",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:RheumatismIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "rheumatism",
+          "@language": "en"
+        },
+        {
+          "@value": "Rheuma",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:DigestiveTractIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "digestive_tract",
+          "@language": "en"
+        },
+        {
+          "@value": "Verdauungssystem",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:DiabetesIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "diabetes",
+          "@language": "en"
+        },
+        {
+          "@value": "Diabetes, Stoffwechsel, Hormone",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:ObesityIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "obesity",
+          "@language": "en"
+        },
+        {
+          "@value": "Übergewicht",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:OncologyIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "oncology",
+          "@language": "en"
+        },
+        {
+          "@value": "Onkologie",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:AllergyIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "allergy",
+          "@language": "en"
+        },
+        {
+          "@value": "Allergien",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:DermatologyIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "dermatology",
+          "@language": "en"
+        },
+        {
+          "@value": "Dermatologie",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:NeurologyIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "neurology",
+          "@language": "en"
+        },
+        {
+          "@value": "Neurologie",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:PsychosomaticsIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "psychosomatics",
+          "@language": "en"
+        },
+        {
+          "@value": "Psychosomatik",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:RespiratoryTractIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "respiratory_tract",
+          "@language": "en"
+        },
+        {
+          "@value": "Atemwege",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:UrologyIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "urology",
+          "@language": "en"
+        },
+        {
+          "@value": "Urologie",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:OrthopedicsIndication",
+      "@type": "onlim:IndicationType",
+      "rdfs:label": [
+        {
+          "@value": "orthopedics",
+          "@language": "en"
+        },
+        {
+          "@value": "Orthopädie",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:MentalHealthPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "mental_health",
+          "@language": "en"
+        },
+        {
+          "@value": "Mentale Gesundheit",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:RespiratoryTractPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "respiratory_tract",
+          "@language": "en"
+        },
+        {
+          "@value": "Atemwege",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:WomensHealthPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "womens_health",
+          "@language": "en"
+        },
+        {
+          "@value": "Frauengesundheit",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:GeneralHealthPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "general_health",
+          "@language": "en"
+        },
+        {
+          "@value": "Gesund kann jeder",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:CardiovascularPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "cardiovascular",
+          "@language": "en"
+        },
+        {
+          "@value": "Herz-Kreislauf",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:OrthopedicsPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "orthopedics",
+          "@language": "en"
+        },
+        {
+          "@value": "Orthopädie",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:AddictionPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "addiction",
+          "@language": "en"
+        },
+        {
+          "@value": "Sucht",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:B2bOffersCertificate",
+      "@type": "onlim:CertificateType",
+      "rdfs:label": [
+        {
+          "@value": "b2b_offers",
+          "@language": "en"
+        },
+        {
+          "@value": "B2B-Angebote",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:PostCovidCertificate",
+      "@type": "onlim:CertificateType",
+      "rdfs:label": [
+        {
+          "@value": "post_covid",
+          "@language": "en"
+        },
+        {
+          "@value": "Post-Covid19-Angebote",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:KneippTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "kneipp",
+          "@language": "en"
+        },
+        {
+          "@value": "Kneippkur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:SoleTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "sole",
+          "@language": "en"
+        },
+        {
+          "@value": "Sole-Kur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:DrinkTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "drink",
+          "@language": "en"
+        },
+        {
+          "@value": "Trinkkur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:SchrothTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "schroth",
+          "@language": "en"
+        },
+        {
+          "@value": "Schrothkur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:ClimateTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "climate",
+          "@language": "en"
+        },
+        {
+          "@value": "Klimakur",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:CompanySupportCertificate",
+      "@type": "onlim:CertificateType",
+      "rdfs:label": [
+        {
+          "@value": "company_support",
+          "@language": "en"
+        },
+        {
+          "@value": "Betriebliche Gesundheitsförderung",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "@id": "onlim:AllergyFriendlyCertificate",
+      "@type": "onlim:CertificateType",
+      "rdfs:label": [
+        {
+          "@value": "allergy_friendly",
+          "@language": "en"
+        },
+        {
+          "@value": "Allergikerfreundlich",
+          "@language": "de"
+        }
+      ]
+    },
+    {
+      "rdfs:label": {
+        "@value": "",
         "@language": "en"
       }
     }
