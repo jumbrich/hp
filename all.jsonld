@@ -35478,7 +35478,7 @@
       "@type": "rdf:Property"
     },
     {
-      "@id": "onlim:IndicationType",
+      "@id": "onlim:Indication",
       "schema:domainIncludes": [
         {
           "@id": "schema:MedicalProcedure"
@@ -39433,7 +39433,11 @@
           "@value": "Erschöpfungszustände, Stressfolgen",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:CardiovascularIndication",
@@ -39447,7 +39451,11 @@
           "@value": "Herz-Kreislauf",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:BackpainIndication",
@@ -39461,7 +39469,11 @@
           "@value": "Rückenschmerzen",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:MudTherapy",
@@ -39475,7 +39487,11 @@
           "@value": "Moorkur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:ThermalWaterTherapy",
@@ -39489,7 +39505,11 @@
           "@value": "Thermalwasser-Kur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:MovementPrevention",
@@ -39503,7 +39523,11 @@
           "@value": "Bewegung",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:RelaxationPrevention",
@@ -39517,7 +39541,11 @@
           "@value": "Entspannung",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:NutritionPrevention",
@@ -39531,7 +39559,11 @@
           "@value": "Ernährung",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:BhvCertificate",
@@ -39545,7 +39577,11 @@
           "@value": "BHV zertifiziert",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:WomensHealthIndication",
@@ -39559,7 +39595,11 @@
           "@value": "Frauengesundheit",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:RheumatismIndication",
@@ -39573,7 +39613,11 @@
           "@value": "Rheuma",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:DigestiveTractIndication",
@@ -39587,7 +39631,11 @@
           "@value": "Verdauungssystem",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:DiabetesIndication",
@@ -39601,7 +39649,11 @@
           "@value": "Diabetes, Stoffwechsel, Hormone",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:ObesityIndication",
@@ -39615,7 +39667,11 @@
           "@value": "Übergewicht",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:OncologyIndication",
@@ -39629,7 +39685,11 @@
           "@value": "Onkologie",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:AllergyIndication",
@@ -39643,7 +39703,11 @@
           "@value": "Allergien",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:DermatologyIndication",
@@ -39657,7 +39721,11 @@
           "@value": "Dermatologie",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:NeurologyIndication",
@@ -39671,7 +39739,11 @@
           "@value": "Neurologie",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:PsychosomaticsIndication",
@@ -39685,7 +39757,11 @@
           "@value": "Psychosomatik",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:RespiratoryTractIndication",
@@ -39699,7 +39775,11 @@
           "@value": "Atemwege",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:UrologyIndication",
@@ -39713,7 +39793,11 @@
           "@value": "Urologie",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:OrthopedicsIndication",
@@ -39727,7 +39811,11 @@
           "@value": "Orthopädie",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:MentalHealthPrevention",
@@ -39741,7 +39829,11 @@
           "@value": "Mentale Gesundheit",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:RespiratoryTractPrevention",
@@ -39755,7 +39847,11 @@
           "@value": "Atemwege",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:WomensHealthPrevention",
@@ -39769,7 +39865,11 @@
           "@value": "Frauengesundheit",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:GeneralHealthPrevention",
@@ -39783,7 +39883,11 @@
           "@value": "Gesund kann jeder",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:CardiovascularPrevention",
@@ -39797,7 +39901,11 @@
           "@value": "Herz-Kreislauf",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:OrthopedicsPrevention",
@@ -39811,7 +39919,11 @@
           "@value": "Orthopädie",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:AddictionPrevention",
@@ -39825,7 +39937,11 @@
           "@value": "Sucht",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:B2bOffersCertificate",
@@ -39839,7 +39955,11 @@
           "@value": "B2B-Angebote",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:PostCovidCertificate",
@@ -39853,7 +39973,11 @@
           "@value": "Post-Covid19-Angebote",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:KneippTherapy",
@@ -39867,7 +39991,11 @@
           "@value": "Kneippkur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:SoleTherapy",
@@ -39881,7 +40009,11 @@
           "@value": "Sole-Kur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:DrinkTherapy",
@@ -39895,7 +40027,11 @@
           "@value": "Trinkkur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:SchrothTherapy",
@@ -39909,7 +40045,11 @@
           "@value": "Schrothkur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:ClimateTherapy",
@@ -39923,7 +40063,11 @@
           "@value": "Klimakur",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:CompanySupportCertificate",
@@ -39937,7 +40081,11 @@
           "@value": "Betriebliche Gesundheitsförderung",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "@id": "onlim:AllergyFriendlyCertificate",
@@ -39951,7 +40099,11 @@
           "@value": "Allergikerfreundlich",
           "@language": "de"
         }
-      ]
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
     },
     {
       "rdfs:label": {
