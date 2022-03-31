@@ -35478,7 +35478,7 @@
       "@type": "rdf:Property"
     },
     {
-      "@id": "onlim:Indication",
+      "@id": "onlim:indication",
       "schema:domainIncludes": [
         {
           "@id": "schema:MedicalProcedure"
@@ -38302,11 +38302,21 @@
       },
       "rdfs:label": [
         {
-          "@value": "nearBy",
+          "@value": "in der nähe",
           "@language": "de"
         },
         {
           "@value": "nearBy",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
           "@language": "en"
         }
       ],
@@ -40102,12 +40112,6 @@
       ],
       "rdfs:comment": {
         "@value": "add comment",
-        "@language": "en"
-      }
-    },
-    {
-      "rdfs:label": {
-        "@value": "",
         "@language": "en"
       }
     }
