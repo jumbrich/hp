@@ -37991,6 +37991,9 @@
         },
         {
           "@id": "schema:MedicalBusiness"
+        },
+        {
+          "@id": "onlim:HealthResort"
         }
       ],
       "schema:rangeIncludes": {
@@ -40107,6 +40110,96 @@
         },
         {
           "@value": "Allergikerfreundlich",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:MotherFatherChildTherapy",
+      "@type": "onlim:TherapyType",
+      "rdfs:label": [
+        {
+          "@value": "mother father child",
+          "@language": "en"
+        },
+        {
+          "@value": "Mutter-Vater-Kind",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:BackJointsPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "back joints",
+          "@language": "en"
+        },
+        {
+          "@value": "Rückengelenke",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:RestPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "rest",
+          "@language": "en"
+        },
+        {
+          "@value": "Ruhe",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:StressGoesAwayPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "stress_goes_away",
+          "@language": "en"
+        },
+        {
+          "@value": "Stress lass nach",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "add comment",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "onlim:DigestionPrevention",
+      "@type": "onlim:PreventionType",
+      "rdfs:label": [
+        {
+          "@value": "digestion",
+          "@language": "en"
+        },
+        {
+          "@value": "Verdauungssystem",
           "@language": "de"
         }
       ],
