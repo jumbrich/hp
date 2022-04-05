@@ -38374,6 +38374,24 @@
       }
     },
     {
+      "@id": "onlim:DavMember",
+      "@type": "onlim:PatientType",
+      "rdfs:label": [
+        {
+          "@value": "dav",
+          "@language": "en"
+        },
+        {
+          "@value": "Deutscher Alpenverein (DAV)",
+          "@language": "de"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "Member of the Deutscher Alpenverein (DAV)",
+        "@language": "en"
+      }
+    },
+    {
       "@id": "onlim:SelfPayer",
       "@type": "onlim:PatientType",
       "rdfs:label": [
