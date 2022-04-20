@@ -38326,7 +38326,7 @@
       "@type": "rdf:Property"
     },
     {
-      "@id": "onlim:servesCuisine",
+      "@id": "schema:servesCuisine",
       "schema:domainIncludes": {
         "@id": "schema:LocalBusiness"
       },
