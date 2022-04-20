@@ -38326,6 +38326,36 @@
       "@type": "rdf:Property"
     },
     {
+      "@id": "onlim:servesCuisine",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "servesCuisine",
+          "@language": "de"
+        },
+        {
+          "@value": "servesCuisine",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
       "@id": "onlim:Published",
       "@type": "onlim:PublishingStatusType",
       "rdfs:label": {
