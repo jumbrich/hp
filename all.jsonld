@@ -38583,10 +38583,16 @@
           "@language": "en"
         }
       ],
-      "rdfs:comment": {
-        "@value": "noch nicht vorhanden",
-        "@language": "de"
-      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
       "@type": "rdf:Property"
     },
     {
