@@ -31302,7 +31302,7 @@
       },
       "rdfs:label": [
         {
-          "@value": "Snackbar",
+          "@value": "Imbiss",
           "@language": "de"
         },
         {
@@ -38530,6 +38530,80 @@
         },
         {
           "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureFoodType",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Küche",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureFoodtype",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureFoodSpecial",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Küche",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureFoodtype",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": {
+        "@value": "noch nicht vorhanden",
+        "@language": "de"
+      },
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureHospitalityService",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Küche",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureHospitalityService",
           "@language": "en"
         }
       ],
