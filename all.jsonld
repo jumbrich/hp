@@ -38356,6 +38356,186 @@
       "@type": "rdf:Property"
     },
     {
+      "@id": "onlim:amenityFeatureAwards",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Auszeichnungen",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureAwards",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeaturePayment",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Zahlungs funktionen",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeaturePayment",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureBeauty",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Schönheitsausstattung",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureBeauty",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureGeo",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Örtlichkeiten",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureGeo",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureAmbiance",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Ambiente",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureAmbiance",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:amenityFeatureService",
+      "schema:domainIncludes": {
+        "@id": "schema:LocalBusiness"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Dienstleistungen",
+          "@language": "de"
+        },
+        {
+          "@value": "amenityFeatureService",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
       "@id": "onlim:Published",
       "@type": "onlim:PublishingStatusType",
       "rdfs:label": {
