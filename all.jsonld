@@ -32187,11 +32187,38 @@
       ],
       "rdfs:comment": [
         {
-          "@value": "A Connector of an ECarChargingStation",
+          "@value": "Ein Connector of an ECarChargingStation",
           "@language": "de"
         },
         {
           "@value": "A Connector of an ECarChargingStation",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:RelationSpecification",
+      "rdfs:subClassOf": {
+        "@id": "schema:StructuredValue"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Verbindungsspezifikation",
+          "@language": "de"
+        },
+        {
+          "@value": "RelationSpecification",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Eine Spezifikation einer generellen Verbindung",
+          "@language": "de"
+        },
+        {
+          "@value": "Specifies a generic connection feature between two objects",
           "@language": "en"
         }
       ],
@@ -38610,6 +38637,66 @@
         },
         {
           "@value": "amenityFeatureHospitalityService",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:relationFeature",
+      "schema:domainIncludes": {
+        "@id": "schema:Thing"
+      },
+      "schema:rangeIncludes": {
+        "@id": "onlim:RelationSpecification"
+      },
+      "rdfs:label": [
+        {
+          "@value": "connectionFeature",
+          "@language": "de"
+        },
+        {
+          "@value": "connectedTo",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:relatedTo",
+      "schema:domainIncludes": {
+        "@id": "onlim:RelationSpecification"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Thing"
+      },
+      "rdfs:label": [
+        {
+          "@value": "verbunden mit",
+          "@language": "de"
+        },
+        {
+          "@value": "relatedTo",
           "@language": "en"
         }
       ],
