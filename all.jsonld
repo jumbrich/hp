@@ -32225,6 +32225,142 @@
       "@type": "rdfs:Class"
     },
     {
+      "@id": "onlim:BarrierFreeHiking",
+      "rdfs:subClassOf": {
+        "@id": "onlim:Hiking"
+      },
+      "rdfs:label": {
+        "@value": "BarrierFreeHiking",
+        "@language": "en"
+      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:GravelBikeTrail",
+      "rdfs:subClassOf": {
+        "@id": "onlim:Biking"
+      },
+      "rdfs:label": {
+        "@value": "GravelBikeTrail",
+        "@language": "en"
+      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:IceSkatingTrail",
+      "rdfs:subClassOf": {
+        "@id": "onlim:WinterTrail"
+      },
+      "rdfs:label": {
+        "@value": "IceSkatingTrail",
+        "@language": "en"
+      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:MotorTour",
+      "rdfs:subClassOf": [
+        {
+          "@id": "onlim:Tour"
+        },
+        {
+          "@id": "onlim:Trail"
+        }
+      ],
+      "rdfs:label": {
+        "@value": "MotorTour",
+        "@language": "en"
+      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:CarTour",
+      "rdfs:subClassOf": {
+        "@id": "onlim:MotorTour"
+      },
+      "rdfs:label": {
+        "@value": "CarTour",
+        "@language": "en"
+      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:ExcursionTour",
+      "rdfs:subClassOf": [
+        {
+          "@id": "onlim:Tour"
+        },
+        {
+          "@id": "onlim:Trail"
+        }
+      ],
+      "rdfs:label": {
+        "@value": "ExcursionTour",
+        "@language": "en"
+      },
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
       "@id": "schema:ratingValue",
       "schema:domainIncludes": {
         "@id": "schema:Rating"
