@@ -32361,7 +32361,7 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:InnerMedicine",
+      "@id": "onlim:InternalMedicine",
       "rdfs:subClassOf": {
         "@id": "schema:Physician"
       },
