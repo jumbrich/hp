@@ -32361,6 +32361,303 @@
       "@type": "rdfs:Class"
     },
     {
+      "@id": "onlim:InnerMedicine",
+      "rdfs:subClassOf": {
+        "@id": "schema:Phycisian"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Internist",
+          "@language": "de"
+        },
+        {
+          "@value": "Internal medicine",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:Carpenter",
+      "rdfs:subClassOf": {
+        "@id": "schema:HomeAndConstructionBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Tischler",
+          "@language": "de"
+        },
+        {
+          "@value": "Carpenter",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:HorticultureAndGardenMainenance",
+      "rdfs:subClassOf": {
+        "@id": "schema:HomeAndConstructionBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Gartenbau und Gartenpflege",
+          "@language": "de"
+        },
+        {
+          "@value": "Horticulture and garden maintenance",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:Architect",
+      "rdfs:subClassOf": {
+        "@id": "schema:HomeAndConstructionBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Architekturbüro",
+          "@language": "de"
+        },
+        {
+          "@value": "Architect",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:CleaningCompany",
+      "rdfs:subClassOf": {
+        "@id": "schema:HomeAndConstructionBusines"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Reinigungsfirma",
+          "@language": "de"
+        },
+        {
+          "@value": "CleaningCompany",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:Municipality",
+      "rdfs:subClassOf": {
+        "@id": "schema:GovernmentOffice"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Gemeindeverwaltung",
+          "@language": "de"
+        },
+        {
+          "@value": "Municipal government",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:MetalAndSteelConstruction",
+      "rdfs:subClassOf": {
+        "@id": "schema:LocalBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Metallbau und Stahlkonstruktion",
+          "@language": "de"
+        },
+        {
+          "@value": "MetalAndSteelConstruction",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:Plasterer",
+      "rdfs:subClassOf": {
+        "@id": "schema:HomeAndConstructionBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Stuckateur",
+          "@language": "de"
+        },
+        {
+          "@value": "Plasterer",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:WindowAndBlindBusiness",
+      "rdfs:subClassOf": {
+        "@id": "schema:homeAndConstructionBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Fensterbehandlungen und Jalousien",
+          "@language": "de"
+        },
+        {
+          "@value": "WindowAndBlindBusiness",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:HealthAndSportsMassage",
+      "rdfs:subClassOf": {
+        "@id": "schema:MedicalBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Gesundheits- und Sportmassage",
+          "@language": "de"
+        },
+        {
+          "@value": "Health and sports massage",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:GeriatricCareFacitility",
+      "rdfs:subClassOf": {
+        "@id": "schema:MedicalBusiness"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Altenheime mit Pflegedienst",
+          "@language": "de"
+        },
+        {
+          "@value": "Homes for the elderly with nursing care",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "Bojan",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
       "@id": "schema:ratingValue",
       "schema:domainIncludes": {
         "@id": "schema:Rating"
