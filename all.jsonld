@@ -32363,7 +32363,7 @@
     {
       "@id": "onlim:InnerMedicine",
       "rdfs:subClassOf": {
-        "@id": "schema:Phycisian"
+        "@id": "schema:Physician"
       },
       "rdfs:label": [
         {
@@ -32471,7 +32471,7 @@
     {
       "@id": "onlim:CleaningCompany",
       "rdfs:subClassOf": {
-        "@id": "schema:HomeAndConstructionBusines"
+        "@id": "schema:HomeAndConstructionBusiness"
       },
       "rdfs:label": [
         {
@@ -32579,7 +32579,7 @@
     {
       "@id": "onlim:WindowAndBlindBusiness",
       "rdfs:subClassOf": {
-        "@id": "schema:homeAndConstructionBusiness"
+        "@id": "schema:HomeAndConstructionBusiness"
       },
       "rdfs:label": [
         {
