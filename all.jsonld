@@ -39146,6 +39146,46 @@
       "@type": "rdf:Property"
     },
     {
+      "@id": "onlim:onlim.additionalTool",
+      "schema:domainIncludes": {
+        "@id": "schema:HowTo"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      },
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:uponRequest",
+      "schema:domainIncludes": {
+        "@id": "schema:OpeningHoursSpecification"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Boolean"
+      },
+      "rdfs:label": [
+        {
+          "@value": "nach Vereinbarung",
+          "@language": "de"
+        },
+        {
+          "@value": "upon request",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
       "@id": "onlim:Published",
       "@type": "onlim:PublishingStatusType",
       "rdfs:label": {
