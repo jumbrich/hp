@@ -39146,13 +39146,33 @@
       "@type": "rdf:Property"
     },
     {
-      "@id": "onlim:onlim.additionalTool",
+      "@id": "onlim:additionalTool",
       "schema:domainIncludes": {
         "@id": "schema:HowTo"
       },
       "schema:rangeIncludes": {
         "@id": "schema:Text"
       },
+      "rdfs:label": [
+        {
+          "@value": "zusätzliche Tools",
+          "@language": "de"
+        },
+        {
+          "@value": "additional Tools",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "please add a comment",
+          "@language": "en"
+        }
+      ],
       "@type": "rdf:Property"
     },
     {
