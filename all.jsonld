@@ -39206,6 +39206,96 @@
       "@type": "rdf:Property"
     },
     {
+      "@id": "schema:eligibleDuration",
+      "schema:domainIncludes": {
+        "@id": "onlim:SkiPass"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:QuantitativeValue"
+      },
+      "rdfs:label": [
+        {
+          "@value": "gültig",
+          "@language": "de"
+        },
+        {
+          "@value": "eligible duration",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Wieviele Tage der Skipass gültig ist",
+          "@language": "de"
+        },
+        {
+          "@value": "how many days the skipass is valid",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:eligibleTimeFrom",
+      "schema:domainIncludes": {
+        "@id": "onlim:SkiPass"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Time"
+      },
+      "rdfs:label": [
+        {
+          "@value": "gültig ab",
+          "@language": "de"
+        },
+        {
+          "@value": "eligible time from",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Ab wieviel Uhr gilt das Ticket",
+          "@language": "de"
+        },
+        {
+          "@value": "the time the ticket is valid from",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:eligibleTimeTo",
+      "schema:domainIncludes": {
+        "@id": "onlim:SkiPass"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Time"
+      },
+      "rdfs:label": [
+        {
+          "@value": "gültig bis",
+          "@language": "de"
+        },
+        {
+          "@value": "eligible time to",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Bis wieviel Uhr gilt das Ticket",
+          "@language": "de"
+        },
+        {
+          "@value": "the time the ticket is valid to",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
       "@id": "onlim:Published",
       "@type": "onlim:PublishingStatusType",
       "rdfs:label": {
