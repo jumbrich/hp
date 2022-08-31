@@ -3504,21 +3504,59 @@
       "@type": "rdfs:Class"
     },
     {
-      "@id": "onlim:SkiPass",
-      "rdfs:subClassOf": {
-        "@id": "schema:Thing"
-      },
-      "rdfs:label": {
-        "@value": "SkiPass",
-        "@language": "en"
-      },
-      "rdfs:comment": [
+      "@id": "onlim:Pass",
+      "rdfs:subClassOf": [
         {
-          "@value": "noch nicht vorhanden",
+          "@id": "schema:Product"
+        },
+        {
+          "@id": "schema:Offer"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Ticketpass",
           "@language": "de"
         },
         {
-          "@value": "please add a comment",
+          "@value": "TicketPass",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Beschreibung eines Ticketpasses für den Zugang zu einem Gebiet, Unternehmen oder Event",
+          "@language": "de"
+        },
+        {
+          "@value": "Used to describe a pass which grants access to an event, area or business",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:SkiPass",
+      "rdfs:subClassOf": {
+        "@id": "onlim:Pass"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Skipass",
+          "@language": "de"
+        },
+        {
+          "@value": "SkiPass",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Beschreibung eines Skipasses",
+          "@language": "de"
+        },
+        {
+          "@value": "Used to describe a Skipass for a skiresort",
           "@language": "en"
         }
       ],
