@@ -32697,14 +32697,9 @@
     },
     {
       "@id": "onlim:CustomerType",
-      "rdfs:subClassOf": [
-        {
-          "@id": "schema:BusinessEntityType"
-        },
-        {
-          "@id": "schema:Intangible"
-        }
-      ],
+      "rdfs:subClassOf": {
+        "@id": "schema:Intangible"
+      },
       "rdfs:label": [
         {
           "@value": "Kundengruppe",
