@@ -32696,6 +32696,38 @@
       "@type": "rdfs:Class"
     },
     {
+      "@id": "onlim:CustomerType",
+      "rdfs:subClassOf": [
+        {
+          "@id": "schema:BusinessEntityType"
+        },
+        {
+          "@id": "schema:Enumeration"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Kundengruppe",
+          "@language": "de"
+        },
+        {
+          "@value": "Customer type",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Ermöglicht eine Kundengruppe zu beschreiben",
+          "@language": "de"
+        },
+        {
+          "@value": "Used to describe a customer type in more detail",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
       "@id": "schema:ratingValue",
       "schema:domainIncludes": {
         "@id": "schema:Rating"
@@ -39246,7 +39278,7 @@
     {
       "@id": "schema:eligibleDuration",
       "schema:domainIncludes": {
-        "@id": "onlim:SkiPass"
+        "@id": "onlim:Pass"
       },
       "schema:rangeIncludes": {
         "@id": "schema:QuantitativeValue"
@@ -39276,7 +39308,7 @@
     {
       "@id": "onlim:eligibleTimeFrom",
       "schema:domainIncludes": {
-        "@id": "onlim:SkiPass"
+        "@id": "onlim:Pass"
       },
       "schema:rangeIncludes": {
         "@id": "schema:Time"
@@ -39306,7 +39338,7 @@
     {
       "@id": "onlim:eligibleTimeTo",
       "schema:domainIncludes": {
-        "@id": "onlim:SkiPass"
+        "@id": "onlim:Pass"
       },
       "schema:rangeIncludes": {
         "@id": "schema:Time"
