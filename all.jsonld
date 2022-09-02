@@ -32702,7 +32702,7 @@
           "@id": "schema:BusinessEntityType"
         },
         {
-          "@id": "schema:Enumeration"
+          "@id": "schema:Intangible"
         }
       ],
       "rdfs:label": [
