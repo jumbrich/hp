@@ -39366,6 +39366,36 @@
       "@type": "rdf:Property"
     },
     {
+      "@id": "onlim:eligibleCustomer",
+      "schema:domainIncludes": {
+        "@id": "schema:Offer"
+      },
+      "schema:rangeIncludes": {
+        "@id": "onlim:CustomerType"
+      },
+      "rdfs:label": [
+        {
+          "@value": "für Kundengruppe",
+          "@language": "de"
+        },
+        {
+          "@value": "eligible for customers",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Für welche Kunden ist das Angebot gültig",
+          "@language": "de"
+        },
+        {
+          "@value": "For which customer types the offer is eligible",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
       "@id": "onlim:Published",
       "@type": "onlim:PublishingStatusType",
       "rdfs:label": {
