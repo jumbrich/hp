@@ -32698,7 +32698,7 @@
     {
       "@id": "onlim:CustomerType",
       "rdfs:subClassOf": {
-        "@id": "schema:Intangible"
+        "@id": "schema:Audience"
       },
       "rdfs:label": [
         {
@@ -32717,6 +32717,33 @@
         },
         {
           "@value": "Used to describe a customer type in more detail",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
+      "@id": "onlim:DiscountCard",
+      "rdfs:subClassOf": {
+        "@id": "schema:Intangible"
+      },
+      "rdfs:label": [
+        {
+          "@value": "Ermässigungskarte",
+          "@language": "de"
+        },
+        {
+          "@value": "Discount card",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Ermöglicht Ermässigungen",
+          "@language": "de"
+        },
+        {
+          "@value": "Eligible for discount offers",
           "@language": "en"
         }
       ],
@@ -39385,6 +39412,36 @@
         },
         {
           "@value": "For which customer types the offer is eligible",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdf:Property"
+    },
+    {
+      "@id": "onlim:eligibleDiscountCard",
+      "schema:domainIncludes": {
+        "@id": "schema:Offer"
+      },
+      "schema:rangeIncludes": {
+        "@id": "onlim:DiscountCard"
+      },
+      "rdfs:label": [
+        {
+          "@value": "mit Ermässigunskarte",
+          "@language": "de"
+        },
+        {
+          "@value": "for discount card",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "Für welche Ermässigunskarte",
+          "@language": "de"
+        },
+        {
+          "@value": "for which discount card",
           "@language": "en"
         }
       ],
