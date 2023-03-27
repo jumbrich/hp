@@ -346,6 +346,38 @@
       "@type": "rdfs:Class"
     },
     {
+      "@id": "onlim:Gear",
+      "rdfs:subClassOf": {
+        "@id": "onlim:Bicycle"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Integer"
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@value": "Anzahl der Gänge",
+          "@language": "de"
+        },
+        {
+          "@value": "Number of bike gears",
+          "@language": "en"
+        }
+      ],
+      "rdfs:comment": [
+        {
+          "@value": "noch nicht vorhanden",
+          "@language": "de"
+        },
+        {
+          "@value": "The total number of gears available for the transmission system of the vehicle",
+          "@language": "en"
+        }
+      ],
+      "@type": "rdfs:Class"
+    },
+    {
       "@id": "onlim:Catering",
       "rdfs:subClassOf": {
         "@id": "schema:FoodService"
